@@ -2,7 +2,7 @@
 
   <!-- Typing SVG Header -->
   <a href="https://github.com/Xronni">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=6366F1&center=true&vCenter=true&width=620&lines=Hi%2C+I'm+Xronni+%F0%9F%91%8B;Python+%26+Rust+Systems+Developer;Reverse+Engineering+%26+Desktop+UX;AI-Powered+Apps+%E2%80%A2+Linux+%26+Windows" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00B4D8&center=true&vCenter=true&width=620&lines=Hi%2C+I'm+Xronni+%F0%9F%91%8B;Python%2C+Rust+%26+Go+Systems+Developer;Reverse+Engineering+%26+Desktop+UX;AI-Powered+Apps+%E2%80%A2+Linux+%26+Windows" alt="Typing SVG" />
   </a>
 
   <p align="center">
@@ -13,6 +13,7 @@
   <p align="center">
     <img src="https://img.shields.io/badge/Python-3.10%20%7C%203.12-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
     <img src="https://img.shields.io/badge/Rust-1.98%2B-DEA584?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
+    <img src="https://img.shields.io/badge/Go-1.26%2B-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" />
     <img src="https://img.shields.io/badge/OS-Linux%20%7C%20Windows%2011%2F10-0078D4?style=flat-square&logo=windows11&logoColor=white" alt="OS" />
     <img src="https://img.shields.io/badge/AI-Claude%20%7C%20GGUF%20%7C%20LLMs-7C3AED?style=flat-square" alt="AI" />
     <a href="https://boosty.to/xronni/single-payment/donation/809763/target?share=target_link">
@@ -92,7 +93,7 @@
 
 | Domain | Technologies |
 | :--- | :--- |
-| **Languages** | `Python 3.10 / 3.12` • `Rust 1.98+` • `Bash / Shell` • `C / ctypes` |
+| **Languages** | `Python 3.10 / 3.12` • `Rust 1.98+` • `Go 1.26+` • `Bash / Shell` • `C / ctypes` |
 | **Operating Systems** | `Linux (Ubuntu, Arch, Debian)` • `Windows 11 / 10` |
 | **GUI & Systems** | `GTK4` • `Libadwaita` • `PyQt6` • `Cairo` • `X11 Interop` • `D-Bus / MPRIS` • `Win32 API` |
 | **AI & LLMs** | `Claude (Anthropic API)` • `OpenAI` • `Google Gemini` • `DeepSeek` • `llama-cpp (.gguf)` |
@@ -161,7 +162,7 @@
 
 | Направление | Стек и инструменты |
 | :--- | :--- |
-| **Языки** | `Python 3.10 / 3.12` • `Rust 1.98+` • `Bash / Shell` • `C / ctypes` |
+| **Языки** | `Python 3.10 / 3.12` • `Rust 1.98+` • `Go 1.26+` • `Bash / Shell` • `C / ctypes` |
 | **Операционные системы** | `Linux (Ubuntu, Arch, Debian)` • `Windows 11 / 10` |
 | **GUI и системы** | `GTK4` • `Libadwaita` • `PyQt6` • `Cairo` • `X11 Interop` • `D-Bus / MPRIS` • `Win32 API` |
 | **Искусственный Интеллект** | `Claude (Anthropic API)` • `OpenAI` • `Google Gemini` • `DeepSeek` • `llama-cpp (.gguf)` |
