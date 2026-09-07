@@ -36,9 +36,9 @@
 
 ### 👨‍💻 About Me
 * ⚙️ **Coding since 2021:** 4+ years of hands-on experience in desktop engineering, R&D, and systems development.
-* 🔍 **Reverse Engineering & OS Internals:** Dissecting binary formats, parsing internal caches (e.g. LevelDB write-ahead logs), and interfacing directly with OS windowing and message protocols (Linux X11/D-Bus and Windows 10/11).
+* 🔍 **Reverse Engineering & OS Internals:** Dissecting binary formats, parsing internal caches (e.g. LevelDB write-ahead logs), Git porcelain & internal protocols, and interfacing directly with OS windowing and message protocols (Linux X11/D-Bus and Windows 10/11).
 * 🧠 **AI Integrations:** Building intelligent tools backed by **Claude (Anthropic)**, OpenAI, Google Gemini, DeepSeek, as well as local offline `.gguf` language models via `llama-cpp`.
-* 💻 **Cross-Platform:** Native applications crafted for both **Linux** (GTK4 / Libadwaita) and **Windows 11 / 10** (PyQt6).
+* 💻 **Cross-Platform:** Native applications crafted for both **Linux** (GTK4 / Libadwaita / Cairo) and **Windows 11 / 10** (PyQt6).
 
 ---
 
@@ -46,6 +46,25 @@
 
 <table>
   <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">⚡ <a href="https://github.com/Xronni/git-pulse-hud">git-pulse-hud</a></h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Linux-GTK4%20%2F%20Libadwaita-3584E4?style=flat-square&logo=gnome" />
+        <img src="https://img.shields.io/badge/Git-Vector%20Graph%20%26%20Pulse-F05032?style=flat-square&logo=git&logoColor=white" />
+        <img src="https://img.shields.io/badge/Security-Secret%20Scanner-10B981?style=flat-square" />
+      </p>
+      <p>
+        Sleek Git micro-staging, interactive branch graph, Conventional Commits composer, and real-time repository telemetry companion.
+      </p>
+      <ul>
+        <li><b>Interactive Branch Tree:</b> Custom Cairo supersampled vector graphics rendering branch tracks, merge curves, and 1-click <code>git checkout</code>.</li>
+        <li><b>Zero-Dependency Secret Scanner:</b> Sub-3ms pre-commit analysis detecting leaked API keys (Claude, OpenAI, GitHub PATs) and <code>.env</code> configs.</li>
+        <li><b>Stash Shelf & Release Drafter:</b> Modal stash inspector with instant diff previews, and 1-click Conventional Changelog synthesizer with SemVer tagging.</li>
+      </ul>
+      <p align="center">
+        <a href="https://github.com/Xronni/git-pulse-hud"><b>View Repository →</b></a>
+      </p>
+    </td>
     <td width="50%" valign="top">
       <h3 align="center">🎵 <a href="https://github.com/Xronni/spotify-mini-player">spotify-mini-player</a></h3>
       <p align="center">
@@ -65,6 +84,8 @@
         <a href="https://github.com/Xronni/spotify-mini-player"><b>View Repository →</b></a>
       </p>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <h3 align="center">📚 <a href="https://github.com/Xronni/yaread">YaRead</a></h3>
       <p align="center">
@@ -84,6 +105,25 @@
         <a href="https://github.com/Xronni/yaread"><b>View Repository →</b></a>
       </p>
     </td>
+    <td width="50%" valign="top">
+      <h3 align="center">🔮 <a href="https://github.com/Xronni?tab=repositories">More in the Lab</a></h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/R%26D-Systems%20%26%20Internals-7C3AED?style=flat-square" />
+        <img src="https://img.shields.io/badge/OS-Linux%20%7C%20Windows-0078D4?style=flat-square" />
+        <img src="https://img.shields.io/badge/Status-Active%20Research-blue?style=flat-square" />
+      </p>
+      <p>
+        Experimental utilities, binary parsers, and low-level system engineering.
+      </p>
+      <ul>
+        <li><b>Hardware & Controllers:</b> Low-level DualSense & game controller interop on Linux/Windows.</li>
+        <li><b>Audio & DSP Pipelines:</b> Procedural wave math audio synthesis and low-latency audio capture.</li>
+        <li><b>Always Building:</b> Continuous exploration of native UX, system hooks, and AI developer tooling.</li>
+      </ul>
+      <p align="center">
+        <a href="https://github.com/Xronni?tab=repositories"><b>Explore All Repositories →</b></a>
+      </p>
+    </td>
   </tr>
 </table>
 
@@ -94,10 +134,10 @@
 | Domain | Technologies |
 | :--- | :--- |
 | **Languages** | `Python 3.10 / 3.12` • `Rust 1.98+` • `Go 1.26+` • `Bash / Shell` • `C / ctypes` |
-| **Operating Systems** | `Linux (Ubuntu, Arch, Debian)` • `Windows 11 / 10` |
-| **GUI & Systems** | `GTK4` • `Libadwaita` • `PyQt6` • `Cairo` • `X11 Interop` • `D-Bus / MPRIS` • `Win32 API` |
+| **Operating Systems** | `Linux (Ubuntu, Arch, Debian, Fedora)` • `Windows 11 / 10` |
+| **GUI & Systems** | `GTK4` • `Libadwaita` • `PyQt6` • `Cairo 2D Graphics` • `X11 Interop` • `D-Bus / MPRIS` • `Win32 API` |
 | **AI & LLMs** | `Claude (Anthropic API)` • `OpenAI` • `Google Gemini` • `DeepSeek` • `llama-cpp (.gguf)` |
-| **Reverse Eng. & Audio** | `LevelDB WAL & record parsing` • `Protobuf / Varints` • `Pygame Audio Mixer` • `PyMuPDF (fitz)` |
+| **Reverse Eng. & Systems** | `LevelDB WAL & record parsing` • `Git Internals & Porcelain` • `Pre-Commit Security Hooks` • `Pygame Audio Mixer` • `PyMuPDF (fitz)` |
 
 ---
 
@@ -105,9 +145,9 @@
 
 ### 👨‍💻 Обо мне
 * ⚙️ **В разработке с 2021 года:** 4+ года практического опыта в desktop-разработке, системном программировании и R&D.
-* 🔍 **Реверс-инжиниринг и системные механизмы:** Исследую бинарные структуры данных, читаю кэш-файлы (LevelDB WAL логи) и взаимодействую напрямую с API операционных систем (**Linux** через D-Bus/X11 и **Windows 11/10**).
+* 🔍 **Реверс-инжиниринг и системные механизмы:** Исследую бинарные структуры данных, читаю кэш-файлы (LevelDB WAL логи), внутренние протоколы Git и взаимодействую напрямую с API операционных систем (**Linux** через D-Bus/X11 и **Windows 11/10**).
 * 🧠 **Искусственный Интеллект:** Интегрирую как передовые облачные LLM (**Claude от Anthropic**, OpenAI, Gemini, DeepSeek), так и автономные приватные локальные модели формата `.gguf` через `llama-cpp`.
-* 💻 **Кроссплатформенность:** Создаю нативный софт под Linux (GTK4 / Libadwaita) и Windows 11/10 (PyQt6).
+* 💻 **Кроссплатформенность:** Создаю нативный софт под Linux (GTK4 / Libadwaita / Cairo) и Windows 11/10 (PyQt6).
 
 ---
 
@@ -115,6 +155,25 @@
 
 <table>
   <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">⚡ <a href="https://github.com/Xronni/git-pulse-hud">git-pulse-hud</a></h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Linux-GTK4%20%2F%20Libadwaita-3584E4?style=flat-square&logo=gnome" />
+        <img src="https://img.shields.io/badge/Git-Векторный%20граф%20и%20пульс-F05032?style=flat-square&logo=git&logoColor=white" />
+        <img src="https://img.shields.io/badge/Безопасность-Secret%20Scanner-10B981?style=flat-square" />
+      </p>
+      <p>
+        Элегантный компаньон для микро-индексации Git, интерактивного графа веток, Conventional Commits и живой телеметрии репозиториев под Linux.
+      </p>
+      <ul>
+        <li><b>Интерактивный граф веток:</b> Векторная отрисовка параллельных линий ветвления и слияний на Cairo с переключением веток в 1 клик.</li>
+        <li><b>Pre-Commit Secret Scanner:</b> Мгновенный анализ (&lt;3 мс), блокирующий случайную утечку API-токенов (Claude, OpenAI, GitHub PAT) и файлов <code>.env</code>.</li>
+        <li><b>Полка тайников и генератор релизов:</b> Инспектор Git Stash с просмотром diff и синтезатор чейнджлогов с автоматическим версионированием по SemVer.</li>
+      </ul>
+      <p align="center">
+        <a href="https://github.com/Xronni/git-pulse-hud"><b>Перейти в репозиторий →</b></a>
+      </p>
+    </td>
     <td width="50%" valign="top">
       <h3 align="center">🎵 <a href="https://github.com/Xronni/spotify-mini-player">spotify-mini-player</a></h3>
       <p align="center">
@@ -134,6 +193,8 @@
         <a href="https://github.com/Xronni/spotify-mini-player"><b>Перейти в репозиторий →</b></a>
       </p>
     </td>
+  </tr>
+  <tr>
     <td width="50%" valign="top">
       <h3 align="center">📚 <a href="https://github.com/Xronni/yaread">YaRead</a></h3>
       <p align="center">
@@ -153,6 +214,25 @@
         <a href="https://github.com/Xronni/yaread"><b>Перейти в репозиторий →</b></a>
       </p>
     </td>
+    <td width="50%" valign="top">
+      <h3 align="center">🔮 <a href="https://github.com/Xronni?tab=repositories">Лаборатория и R&D</a></h3>
+      <p align="center">
+        <img src="https://img.shields.io/badge/R%26D-Системный%20код-7C3AED?style=flat-square" />
+        <img src="https://img.shields.io/badge/ОС-Linux%20%7C%20Windows-0078D4?style=flat-square" />
+        <img src="https://img.shields.io/badge/Статус-Активные%20исследования-blue?style=flat-square" />
+      </p>
+      <p>
+        Экспериментальные утилиты, бинарные парсеры и низкоуровневые системные наработки.
+      </p>
+      <ul>
+        <li><b>Контроллеры и драйверы:</b> Прямое взаимодействие с DualSense и HID-устройствами под Linux/Windows.</li>
+        <li><b>Аудио и синтез волн:</b> Процедурная генерация звука на чистом Python и быстрые звуковые пайплайны.</li>
+        <li><b>Постоянный R&D:</b> Непрерывное исследование нативных интерфейсов, системных хуков и ИИ-инструментов.</li>
+      </ul>
+      <p align="center">
+        <a href="https://github.com/Xronni?tab=repositories"><b>Все репозитории на GitHub →</b></a>
+      </p>
+    </td>
   </tr>
 </table>
 
@@ -163,10 +243,10 @@
 | Направление | Стек и инструменты |
 | :--- | :--- |
 | **Языки** | `Python 3.10 / 3.12` • `Rust 1.98+` • `Go 1.26+` • `Bash / Shell` • `C / ctypes` |
-| **Операционные системы** | `Linux (Ubuntu, Arch, Debian)` • `Windows 11 / 10` |
-| **GUI и системы** | `GTK4` • `Libadwaita` • `PyQt6` • `Cairo` • `X11 Interop` • `D-Bus / MPRIS` • `Win32 API` |
+| **Операционные системы** | `Linux (Ubuntu, Arch, Debian, Fedora)` • `Windows 11 / 10` |
+| **GUI и системы** | `GTK4` • `Libadwaita` • `PyQt6` • `Cairo 2D Graphics` • `X11 Interop` • `D-Bus / MPRIS` • `Win32 API` |
 | **Искусственный Интеллект** | `Claude (Anthropic API)` • `OpenAI` • `Google Gemini` • `DeepSeek` • `llama-cpp (.gguf)` |
-| **Реверс и медиа** | `Парсинг LevelDB WAL & binary` • `Protobuf / Varints` • `Pygame Audio Mixer` • `PyMuPDF (fitz)` |
+| **Реверс и системы** | `Парсинг LevelDB WAL & binary` • `Git Internals & Porcelain` • `Pre-Commit Security Hooks` • `Pygame Audio Mixer` • `PyMuPDF (fitz)` |
 
 ---
 
