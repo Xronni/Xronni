@@ -1,264 +1,151 @@
 <div align="center">
 
-  <!-- Typing SVG Header -->
-  <a href="https://github.com/Xronni">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=00B4D8&center=true&vCenter=true&width=620&lines=Hi%2C+I'm+Xronni+%F0%9F%91%8B;Python%2C+Rust+%26+Go+Systems+Developer;Reverse+Engineering+%26+Desktop+UX;AI-Powered+Apps+%E2%80%A2+Linux+%26+Windows" alt="Typing SVG" />
-  </a>
+# Xronni
 
-  <p align="center">
-    <strong>Software & Reverse Engineering Developer (since 2021)</strong><br>
-    Crafting fast native desktop software, diving into OS internals (Linux & Windows), and integrating cutting-edge AI.
-  </p>
+**Native desktop software for Linux and Windows.**<br>
+Python · GTK4 / Libadwaita · PyQt6 · systems integration · reverse engineering · LLMs
 
-  <p align="center">
-    <img src="https://img.shields.io/badge/Python-3.10%20%7C%203.12-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-    <img src="https://img.shields.io/badge/Rust-1.98%2B-DEA584?style=flat-square&logo=rust&logoColor=white" alt="Rust" />
-    <img src="https://img.shields.io/badge/Go-1.26%2B-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" />
-    <img src="https://img.shields.io/badge/OS-Linux%20%7C%20Windows%2011%2F10-0078D4?style=flat-square&logo=windows11&logoColor=white" alt="OS" />
-    <img src="https://img.shields.io/badge/AI-Claude%20%7C%20GGUF%20%7C%20LLMs-7C3AED?style=flat-square" alt="AI" />
-    <a href="https://boosty.to/xronni/single-payment/donation/809763/target?share=target_link">
-      <img src="https://img.shields.io/badge/Support_on-Boosty-F15F2C?style=flat-square&logo=boosty&logoColor=white" alt="Boosty" />
-    </a>
-  </p>
+<p>
+  <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python 3.10+">
+  <img src="https://img.shields.io/badge/GTK4-Libadwaita-3584E4?style=flat-square&logo=gnome&logoColor=white" alt="GTK4 / Libadwaita">
+  <img src="https://img.shields.io/badge/Qt-6-41CD52?style=flat-square&logo=qt&logoColor=white" alt="Qt 6">
+  <img src="https://img.shields.io/badge/Linux-X11%20%7C%20D--Bus-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux">
+  <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-0078D4?style=flat-square&logo=windows11&logoColor=white" alt="Windows 10/11">
+  <img src="https://img.shields.io/badge/AI-cloud%20%7C%20local%20GGUF-7C3AED?style=flat-square" alt="AI: cloud and local GGUF">
+</p>
 
-  <!-- Language Switcher / Переключатель языка -->
-  <p align="center">
-    <b>🌐 Language / Язык:</b> 
-    <a href="#-english-version">English</a> • 
-    <a href="#-русская-версия">Русский</a>
-  </p>
+<p>
+  <a href="#english">English</a> ·
+  <a href="#русский">Русский</a> ·
+  <a href="https://boosty.to/xronni/single-payment/donation/809763/target?share=target_link">Boosty</a>
+</p>
 
 </div>
 
 ---
 
-## 🇺🇸 English Version
+## English
 
-### 👨‍💻 About Me
-* ⚙️ **Coding since 2021:** 4+ years of hands-on experience in desktop engineering, R&D, and systems development.
-* 🔍 **Reverse Engineering & OS Internals:** Dissecting binary formats, parsing internal caches (e.g. LevelDB write-ahead logs), Git porcelain & internal protocols, and interfacing directly with OS windowing and message protocols (Linux X11/D-Bus and Windows 10/11).
-* 🧠 **AI Integrations:** Building intelligent tools backed by **Claude (Anthropic)**, OpenAI, Google Gemini, DeepSeek, as well as local offline `.gguf` language models via `llama-cpp`.
-* 💻 **Cross-Platform:** Native applications crafted for both **Linux** (GTK4 / Libadwaita / Cairo) and **Windows 11 / 10** (PyQt6).
+### About
 
----
+I've been writing code since 2021. Most projects start the same way: a tool almost does what I need, so I dig into how it works and build the version I actually want.
 
-### 🚀 Featured Projects
+- **Desktop** — GTK4 and Libadwaita on Linux, PyQt6 on Linux and Windows.
+- **Systems** — X11/EWMH window handling, D-Bus/MPRIS, git plumbing, LevelDB records, `.deb` packaging.
+- **AI** — cloud models (OpenAI, Gemini, DeepSeek, OpenRouter) and local `.gguf` models through `llama-cpp`.
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">⚡ <a href="https://github.com/Xronni/git-pulse-hud">git-pulse-hud</a></h3>
-      <p align="center">
-        <img src="https://img.shields.io/badge/Linux-GTK4%20%2F%20Libadwaita-3584E4?style=flat-square&logo=gnome" />
-        <img src="https://img.shields.io/badge/Git-Vector%20Graph%20%26%20Pulse-F05032?style=flat-square&logo=git&logoColor=white" />
-        <img src="https://img.shields.io/badge/Security-Secret%20Scanner-10B981?style=flat-square" />
-      </p>
-      <p>
-        Sleek Git micro-staging, interactive branch graph, Conventional Commits composer, and real-time repository telemetry companion.
-      </p>
-      <ul>
-        <li><b>Interactive Branch Tree:</b> Custom Cairo supersampled vector graphics rendering branch tracks, merge curves, and 1-click <code>git checkout</code>.</li>
-        <li><b>Zero-Dependency Secret Scanner:</b> Sub-3ms pre-commit analysis detecting leaked API keys (Claude, OpenAI, GitHub PATs) and <code>.env</code> configs.</li>
-        <li><b>Stash Shelf & Release Drafter:</b> Modal stash inspector with instant diff previews, and 1-click Conventional Changelog synthesizer with SemVer tagging.</li>
-      </ul>
-      <p align="center">
-        <a href="https://github.com/Xronni/git-pulse-hud"><b>View Repository →</b></a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center">🎵 <a href="https://github.com/Xronni/spotify-mini-player">spotify-mini-player</a></h3>
-      <p align="center">
-        <img src="https://img.shields.io/badge/Linux-GTK4%20%2F%20Libadwaita-3584E4?style=flat-square&logo=gnome" />
-        <img src="https://img.shields.io/badge/MPRIS-D--Bus-blueviolet?style=flat-square" />
-        <img src="https://img.shields.io/badge/LevelDB-Reverse%20Engineering-4EBA6F?style=flat-square" />
-      </p>
-      <p>
-        Lightweight translucent mini-player & OSD HUD for Spotify on Linux.
-      </p>
-      <ul>
-        <li><b>Zero-API Queue:</b> Reverse-engineered Spotify's local LevelDB cache (WAL blocks and varints) to reconstruct genuine track queues and history without Spotify Web API tokens.</li>
-        <li><b>Bi-directional Volume Sync:</b> Real-time volume slider and mouse wheel scrolling synchronized via MPRIS D-Bus.</li>
-        <li><b>Smart OSD:</b> Low-latency HUD that auto-hides when Spotify Desktop is focused via X11 <code>ctypes</code>.</li>
-      </ul>
-      <p align="center">
-        <a href="https://github.com/Xronni/spotify-mini-player"><b>View Repository →</b></a>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">📚 <a href="https://github.com/Xronni/yaread">YaRead</a></h3>
-      <p align="center">
-        <img src="https://img.shields.io/badge/Platform-Windows%2011%2F10%20%7C%20Linux-blue?style=flat-square" />
-        <img src="https://img.shields.io/badge/AI-Claude%20%7C%20Local%20GGUF-FF6F61?style=flat-square" />
-        <img src="https://img.shields.io/badge/GUI-PyQt6-41CD52?style=flat-square&logo=qt" />
-      </p>
-      <p>
-        Intelligent reader with dynamic AI-driven ambient music adapting to story emotions.
-      </p>
-      <ul>
-        <li><b>12 Adaptive Soundtracks:</b> AI analyzes the emotional arc of the narrative in real time and smoothly crossfades ambient loops.</li>
-        <li><b>Dual AI Engine:</b> Supports private local models (<code>.gguf</code> via llama-cpp) and top-tier cloud models: <b>Claude</b>, OpenAI, Gemini, and DeepSeek.</li>
-        <li><b>Multi-format:</b> High-speed rendering of PDF (PyMuPDF), EPUB, and FB2 with interactive <code>Alt + Drag</code> AI assistant.</li>
-      </ul>
-      <p align="center">
-        <a href="https://github.com/Xronni/yaread"><b>View Repository →</b></a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center">🔮 <a href="https://github.com/Xronni?tab=repositories">More in the Lab</a></h3>
-      <p align="center">
-        <img src="https://img.shields.io/badge/R%26D-Systems%20%26%20Internals-7C3AED?style=flat-square" />
-        <img src="https://img.shields.io/badge/OS-Linux%20%7C%20Windows-0078D4?style=flat-square" />
-        <img src="https://img.shields.io/badge/Status-Active%20Research-blue?style=flat-square" />
-      </p>
-      <p>
-        Experimental utilities, binary parsers, and low-level system engineering.
-      </p>
-      <ul>
-        <li><b>Hardware & Controllers:</b> Low-level DualSense & game controller interop on Linux/Windows.</li>
-        <li><b>Audio & DSP Pipelines:</b> Procedural wave math audio synthesis and low-latency audio capture.</li>
-        <li><b>Always Building:</b> Continuous exploration of native UX, system hooks, and AI developer tooling.</li>
-      </ul>
-      <p align="center">
-        <a href="https://github.com/Xronni?tab=repositories"><b>Explore All Repositories →</b></a>
-      </p>
-    </td>
-  </tr>
-</table>
+### Projects
 
----
+#### ⚡ [GitPulse HUD](https://github.com/Xronni/git-pulse-hud)
 
-### 🛠 Tech Stack & Toolbox
+[![Latest release](https://img.shields.io/github/v/release/Xronni/git-pulse-hud?style=flat-square&label=release&color=0B7285)](https://github.com/Xronni/git-pulse-hud/releases/latest)
 
-| Domain | Technologies |
+A Git companion for Linux: micro-staging, an interactive branch graph, Conventional Commits, a stash inspector, a secret scanner and repository analytics.
+
+- Cairo-drawn branch tree with merge curves and one-click checkout.
+- Pre-commit scan of staged diffs for leaked keys, in under 3 ms.
+- Commit velocity, a 24-hour punchcard, GitHub traffic and release download stats.
+
+`GTK4` · `Libadwaita` · `Cairo` · `GitHub API` · `Python 3.10+`
+
+#### 🎵 [Spotify Mini Player](https://github.com/Xronni/spotify-mini-player)
+
+[![Latest release](https://img.shields.io/github/v/release/Xronni/spotify-mini-player?style=flat-square&label=release&color=0B7285)](https://github.com/Xronni/spotify-mini-player/releases/latest)
+
+A translucent mini-player and OSD HUD for Spotify on Linux, with the real queue read straight from Spotify's local cache.
+
+- LevelDB parsing reconstructs the queue and history without the Web API or developer tokens.
+- Bi-directional volume and playback sync over MPRIS D-Bus; global media keys and CLI flags.
+- Four themes, automatic localization (ru/en/de/es/fr), and an OSD that hides when the Spotify window is focused.
+
+`GTK4` · `Libadwaita` · `MPRIS` · `LevelDB` · `Python 3.10+`
+
+#### 📚 [YaRead](https://github.com/Xronni/yaread)
+
+[![Latest release](https://img.shields.io/github/v/release/Xronni/yaread?style=flat-square&label=release&color=0B7285)](https://github.com/Xronni/yaread/releases/latest)
+
+A PyQt6 reader for PDF, EPUB and FB2 with an AI assistant and adaptive soundtracks.
+
+- Select a passage, press **Ask AI**, get an explanation in place.
+- Twelve narrative emotions drive smooth crossfades between background loops.
+- Cloud providers or local `.gguf` models — with a local model, the text never leaves the machine.
+- Builds for Linux (`.deb`, portable archive) and Windows.
+
+`PyQt6` · `PyMuPDF` · `Pygame` · `llama-cpp` · `Python 3.10+`
+
+### Toolbox
+
+| Area | Stack |
 | :--- | :--- |
-| **Languages** | `Python 3.10 / 3.12` • `Rust 1.98+` • `Go 1.26+` • `Bash / Shell` • `C / ctypes` |
-| **Operating Systems** | `Linux (Ubuntu, Arch, Debian, Fedora)` • `Windows 11 / 10` |
-| **GUI & Systems** | `GTK4` • `Libadwaita` • `PyQt6` • `Cairo 2D Graphics` • `X11 Interop` • `D-Bus / MPRIS` • `Win32 API` |
-| **AI & LLMs** | `Claude (Anthropic API)` • `OpenAI` • `Google Gemini` • `DeepSeek` • `llama-cpp (.gguf)` |
-| **Reverse Eng. & Systems** | `LevelDB WAL & record parsing` • `Git Internals & Porcelain` • `Pre-Commit Security Hooks` • `Pygame Audio Mixer` • `PyMuPDF (fitz)` |
+| **Languages** | `Python 3.10+` · `Bash` |
+| **Desktop** | `GTK4` · `Libadwaita` · `PyQt6` · `Cairo` · `CSS` |
+| **Linux** | `X11 / EWMH` · `D-Bus / MPRIS` · `.deb` packaging |
+| **Formats & internals** | `LevelDB` · `git porcelain` · `PDF / EPUB / FB2` |
+| **AI** | `OpenAI` · `Gemini` · `DeepSeek` · `OpenRouter` · `llama-cpp` |
 
 ---
 
-## 🇷🇺 Русская версия
+## Русский
 
-### 👨‍💻 Обо мне
-* ⚙️ **В разработке с 2021 года:** 4+ года практического опыта в desktop-разработке, системном программировании и R&D.
-* 🔍 **Реверс-инжиниринг и системные механизмы:** Исследую бинарные структуры данных, читаю кэш-файлы (LevelDB WAL логи), внутренние протоколы Git и взаимодействую напрямую с API операционных систем (**Linux** через D-Bus/X11 и **Windows 11/10**).
-* 🧠 **Искусственный Интеллект:** Интегрирую как передовые облачные LLM (**Claude от Anthropic**, OpenAI, Gemini, DeepSeek), так и автономные приватные локальные модели формата `.gguf` через `llama-cpp`.
-* 💻 **Кроссплатформенность:** Создаю нативный софт под Linux (GTK4 / Libadwaita / Cairo) и Windows 11/10 (PyQt6).
+### Обо мне
 
----
+Пишу код с 2021 года. Почти каждый проект начинается одинаково: готовый инструмент делает почти то, что нужно, — я разбираюсь, как он устроен, и пишу версию, которой мне не хватает.
 
-### 🚀 Проекты
+- **Десктоп** — GTK4 и Libadwaita под Linux, PyQt6 под Linux и Windows.
+- **Системы** — работа с окнами через X11/EWMH, D-Bus/MPRIS, внутренности git, записи LevelDB, сборка `.deb`.
+- **ИИ** — облачные модели (OpenAI, Gemini, DeepSeek, OpenRouter) и локальные `.gguf` через `llama-cpp`.
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">⚡ <a href="https://github.com/Xronni/git-pulse-hud">git-pulse-hud</a></h3>
-      <p align="center">
-        <img src="https://img.shields.io/badge/Linux-GTK4%20%2F%20Libadwaita-3584E4?style=flat-square&logo=gnome" />
-        <img src="https://img.shields.io/badge/Git-Векторный%20граф%20и%20пульс-F05032?style=flat-square&logo=git&logoColor=white" />
-        <img src="https://img.shields.io/badge/Безопасность-Secret%20Scanner-10B981?style=flat-square" />
-      </p>
-      <p>
-        Элегантный компаньон для микро-индексации Git, интерактивного графа веток, Conventional Commits и живой телеметрии репозиториев под Linux.
-      </p>
-      <ul>
-        <li><b>Интерактивный граф веток:</b> Векторная отрисовка параллельных линий ветвления и слияний на Cairo с переключением веток в 1 клик.</li>
-        <li><b>Pre-Commit Secret Scanner:</b> Мгновенный анализ (&lt;3 мс), блокирующий случайную утечку API-токенов (Claude, OpenAI, GitHub PAT) и файлов <code>.env</code>.</li>
-        <li><b>Полка тайников и генератор релизов:</b> Инспектор Git Stash с просмотром diff и синтезатор чейнджлогов с автоматическим версионированием по SemVer.</li>
-      </ul>
-      <p align="center">
-        <a href="https://github.com/Xronni/git-pulse-hud"><b>Перейти в репозиторий →</b></a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center">🎵 <a href="https://github.com/Xronni/spotify-mini-player">spotify-mini-player</a></h3>
-      <p align="center">
-        <img src="https://img.shields.io/badge/Linux-GTK4%20%2F%20Libadwaita-3584E4?style=flat-square&logo=gnome" />
-        <img src="https://img.shields.io/badge/MPRIS-D--Bus-blueviolet?style=flat-square" />
-        <img src="https://img.shields.io/badge/LevelDB-Reverse%20Engineering-4EBA6F?style=flat-square" />
-      </p>
-      <p>
-        Элегантный полупрозрачный мини-плеер и OSD HUD для Spotify под Linux.
-      </p>
-      <ul>
-        <li><b>Очередь без API:</b> Реверс-инжиниринг локальной базы LevelDB Spotify (декодирование WAL-блоков и varint) для извлечения реальной очереди треков без необходимости заводить API-ключи разработчика.</li>
-        <li><b>Двусторонняя синхронизация звука:</b> Мгновенный отклик ползунка и колесика мыши по протоколу MPRIS D-Bus.</li>
-        <li><b>Умный OSD:</b> Автоматическое скрытие виджета при фокусе на основном окне Spotify через <code>ctypes</code> X11.</li>
-      </ul>
-      <p align="center">
-        <a href="https://github.com/Xronni/spotify-mini-player"><b>Перейти в репозиторий →</b></a>
-      </p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">📚 <a href="https://github.com/Xronni/yaread">YaRead</a></h3>
-      <p align="center">
-        <img src="https://img.shields.io/badge/Платформа-Windows%2011%2F10%20%7C%20Linux-blue?style=flat-square" />
-        <img src="https://img.shields.io/badge/ИИ-Claude%20%7C%20Локальный%20GGUF-FF6F61?style=flat-square" />
-        <img src="https://img.shields.io/badge/Интерфейс-PyQt6-41CD52?style=flat-square&logo=qt" />
-      </p>
-      <p>
-        Умная читалка книг с динамической сменой атмосферного саундтрека под эмоциональный тон сюжета.
-      </p>
-      <ul>
-        <li><b>12 адаптивных саундтреков:</b> ИИ в реальном времени анализирует тональность сцены и плавно микширует звуковые петли.</li>
-        <li><b>Гибридный ИИ-движок:</b> Работа с ведущими моделями: <b>Claude</b>, OpenAI, Gemini, DeepSeek, а также полная приватность с локальными <code>.gguf</code> моделями (Qwen/LLaMA).</li>
-        <li><b>Форматы:</b> Быстрый рендеринг PDF, EPUB, FB2 и контекстный ИИ-помощник по <code>Alt + Drag</code>.</li>
-      </ul>
-      <p align="center">
-        <a href="https://github.com/Xronni/yaread"><b>Перейти в репозиторий →</b></a>
-      </p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center">🔮 <a href="https://github.com/Xronni?tab=repositories">Лаборатория и R&D</a></h3>
-      <p align="center">
-        <img src="https://img.shields.io/badge/R%26D-Системный%20код-7C3AED?style=flat-square" />
-        <img src="https://img.shields.io/badge/ОС-Linux%20%7C%20Windows-0078D4?style=flat-square" />
-        <img src="https://img.shields.io/badge/Статус-Активные%20исследования-blue?style=flat-square" />
-      </p>
-      <p>
-        Экспериментальные утилиты, бинарные парсеры и низкоуровневые системные наработки.
-      </p>
-      <ul>
-        <li><b>Контроллеры и драйверы:</b> Прямое взаимодействие с DualSense и HID-устройствами под Linux/Windows.</li>
-        <li><b>Аудио и синтез волн:</b> Процедурная генерация звука на чистом Python и быстрые звуковые пайплайны.</li>
-        <li><b>Постоянный R&D:</b> Непрерывное исследование нативных интерфейсов, системных хуков и ИИ-инструментов.</li>
-      </ul>
-      <p align="center">
-        <a href="https://github.com/Xronni?tab=repositories"><b>Все репозитории на GitHub →</b></a>
-      </p>
-    </td>
-  </tr>
-</table>
+### Проекты
 
----
+#### ⚡ [GitPulse HUD](https://github.com/Xronni/git-pulse-hud)
 
-### 🛠 Технологический стек
+[![Последний релиз](https://img.shields.io/github/v/release/Xronni/git-pulse-hud?style=flat-square&label=release&color=0B7285)](https://github.com/Xronni/git-pulse-hud/releases/latest)
 
-| Направление | Стек и инструменты |
+Git-компаньон для Linux: микро-стейджинг, интерактивный граф веток, Conventional Commits, инспектор stash, сканер секретов и аналитика репозитория.
+
+- Граф веток на Cairo: линии слияний, подсветка коммитов, переключение ветки в один клик.
+- Проверка staged-диффа на утёкшие ключи перед коммитом — меньше 3 мс.
+- Скорость коммитов, 24-часовой панчкард, трафик GitHub и счётчики скачиваний релизов.
+
+`GTK4` · `Libadwaita` · `Cairo` · `GitHub API` · `Python 3.10+`
+
+#### 🎵 [Spotify Mini Player](https://github.com/Xronni/spotify-mini-player)
+
+[![Последний релиз](https://img.shields.io/github/v/release/Xronni/spotify-mini-player?style=flat-square&label=release&color=0B7285)](https://github.com/Xronni/spotify-mini-player/releases/latest)
+
+Полупрозрачный мини-плеер и OSD HUD для Spotify под Linux — с настоящей очередью из локального кэша.
+
+- Разбор LevelDB восстанавливает очередь и историю без Web API и токенов разработчика.
+- Двусторонняя синхронизация громкости и управления по MPRIS D-Bus, глобальные медиаклавиши и CLI-флаги.
+- Четыре темы, автолокализация (ru/en/de/es/fr), OSD прячется, когда окно Spotify в фокусе.
+
+`GTK4` · `Libadwaita` · `MPRIS` · `LevelDB` · `Python 3.10+`
+
+#### 📚 [YaRead](https://github.com/Xronni/yaread)
+
+[![Последний релиз](https://img.shields.io/github/v/release/Xronni/yaread?style=flat-square&label=release&color=0B7285)](https://github.com/Xronni/yaread/releases/latest)
+
+Читалка PDF, EPUB и FB2 на PyQt6 с ИИ-помощником и адаптивными саундтреками.
+
+- Выделяешь фрагмент, нажимаешь **Ask AI** — объяснение появляется прямо в тексте.
+- Двенадцать эмоций сцены плавно переключают фоновые аудиопетли.
+- Облачные провайдеры или локальные `.gguf`-модели: с локальной моделью текст не покидает машину.
+- Сборки для Linux (`.deb`, портативный архив) и Windows.
+
+`PyQt6` · `PyMuPDF` · `Pygame` · `llama-cpp` · `Python 3.10+`
+
+### Стек
+
+| Направление | Технологии |
 | :--- | :--- |
-| **Языки** | `Python 3.10 / 3.12` • `Rust 1.98+` • `Go 1.26+` • `Bash / Shell` • `C / ctypes` |
-| **Операционные системы** | `Linux (Ubuntu, Arch, Debian, Fedora)` • `Windows 11 / 10` |
-| **GUI и системы** | `GTK4` • `Libadwaita` • `PyQt6` • `Cairo 2D Graphics` • `X11 Interop` • `D-Bus / MPRIS` • `Win32 API` |
-| **Искусственный Интеллект** | `Claude (Anthropic API)` • `OpenAI` • `Google Gemini` • `DeepSeek` • `llama-cpp (.gguf)` |
-| **Реверс и системы** | `Парсинг LevelDB WAL & binary` • `Git Internals & Porcelain` • `Pre-Commit Security Hooks` • `Pygame Audio Mixer` • `PyMuPDF (fitz)` |
-
----
-
-### 📈 GitHub Overview
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Xronni&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" height="155" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Xronni&layout=compact&theme=tokyonight&hide_border=true" height="155" alt="Top Langs" />
-</div>
+| **Языки** | `Python 3.10+` · `Bash` |
+| **Десктоп** | `GTK4` · `Libadwaita` · `PyQt6` · `Cairo` · `CSS` |
+| **Linux** | `X11 / EWMH` · `D-Bus / MPRIS` · сборка `.deb` |
+| **Форматы и внутренности** | `LevelDB` · `git porcelain` · `PDF / EPUB / FB2` |
+| **ИИ** | `OpenAI` · `Gemini` · `DeepSeek` · `OpenRouter` · `llama-cpp` |
 
 ---
 
 <div align="center">
-  <sub>⭐️ <i>«If it doesn't exist or doesn't work the way it should — reverse engineer it and build your own.»</i></sub>
+  <sub>If the tool you need doesn't exist — build it.</sub>
 </div>
