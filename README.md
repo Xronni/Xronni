@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&pause=1200&color=7C5CFF&center=true&vCenter=true&width=600&lines=hello%2C+I%27m+xronni" alt="hello, I'm xronni">
+  <img src="assets/header.svg" alt="hello, I'm xronni">
 </div>
 
 <p align="center">
@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/badge/GTK4-Libadwaita-3584E4?style=flat-square&logo=gnome&logoColor=white" alt="GTK4 / Libadwaita">
   <img src="https://img.shields.io/badge/Qt-6-41CD52?style=flat-square&logo=qt&logoColor=white" alt="Qt 6">
   <img src="https://img.shields.io/badge/Linux%20%7C%20Windows-0078D4?style=flat-square" alt="Linux and Windows">
-  <img src="https://img.shields.io/badge/AI-cloud%20%7C%20local%20GGUF-7C3AED?style=flat-square" alt="AI: cloud and local GGUF">
+  <img src="https://img.shields.io/badge/AI-friendly-7C3AED?style=flat-square" alt="AI-friendly">
 </p>
 
 <p align="center">
@@ -27,7 +27,7 @@ I've been writing code since 2021. Most projects start the same way: a tool almo
 - **Languages** — Python 3.10+, Rust 1.98+, Go 1.26+, Bash.
 - **Desktop** — GTK4 and Libadwaita on Linux, PyQt6 on Linux and Windows.
 - **Systems** — X11/EWMH window handling, D-Bus/MPRIS, git plumbing, LevelDB records, `.deb` packaging.
-- **AI** — cloud models (OpenAI, Gemini, DeepSeek, OpenRouter) and local `.gguf` models through `llama-cpp`.
+- **AI** — cloud models (OpenAI, Anthropic, Gemini, DeepSeek, OpenCode) and local `.gguf` models through `llama-cpp`.
 
 ## Projects
 
@@ -95,7 +95,7 @@ I've been writing code since 2021. Most projects start the same way: a tool almo
   <img src="https://img.shields.io/badge/GTK4-Libadwaita-3584E4?style=flat-square&logo=gnome&logoColor=white" alt="GTK4">
   <img src="https://img.shields.io/badge/Qt-6-41CD52?style=flat-square&logo=qt&logoColor=white" alt="Qt 6">
   <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux">
-  <p><b>Languages</b> Python 3.10+, Rust 1.98+, Go 1.26+, Bash<br><b>Desktop</b> GTK4, Libadwaita, PyQt6, Cairo<br><b>Systems</b> X11, D-Bus, LevelDB, git<br><b>AI</b> OpenAI, Gemini, DeepSeek, llama-cpp</p>
+  <p><b>Languages</b> Python 3.10+, Rust 1.98+, Go 1.26+, Bash<br><b>Desktop</b> GTK4, Libadwaita, PyQt6, Cairo<br><b>Systems</b> X11, D-Bus, LevelDB, git<br><b>AI</b> OpenAI, Anthropic, Gemini, DeepSeek, OpenCode, llama-cpp</p>
   <img src="assets/spacer.png" width="100%" height="1" alt="">
 </td>
 </tr>
@@ -110,7 +110,7 @@ I've been writing code since 2021. Most projects start the same way: a tool almo
 - **Языки** — Python 3.10+, Rust 1.98+, Go 1.26+, Bash.
 - **Десктоп** — GTK4 и Libadwaita под Linux, PyQt6 под Linux и Windows.
 - **Системы** — работа с окнами через X11/EWMH, D-Bus/MPRIS, внутренности git, записи LevelDB, сборка `.deb`.
-- **ИИ** — облачные модели (OpenAI, Gemini, DeepSeek, OpenRouter) и локальные `.gguf` через `llama-cpp`.
+- **ИИ** — облачные модели (OpenAI, Anthropic, Gemini, DeepSeek, OpenCode) и локальные `.gguf` через `llama-cpp`.
 
 ## Проекты
 
@@ -178,7 +178,7 @@ I've been writing code since 2021. Most projects start the same way: a tool almo
   <img src="https://img.shields.io/badge/GTK4-Libadwaita-3584E4?style=flat-square&logo=gnome&logoColor=white" alt="GTK4">
   <img src="https://img.shields.io/badge/Qt-6-41CD52?style=flat-square&logo=qt&logoColor=white" alt="Qt 6">
   <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux">
-  <p><b>Языки</b> Python 3.10+, Rust 1.98+, Go 1.26+, Bash<br><b>Десктоп</b> GTK4, Libadwaita, PyQt6, Cairo<br><b>Системы</b> X11, D-Bus, LevelDB, git<br><b>ИИ</b> OpenAI, Gemini, DeepSeek, llama-cpp</p>
+  <p><b>Языки</b> Python 3.10+, Rust 1.98+, Go 1.26+, Bash<br><b>Десктоп</b> GTK4, Libadwaita, PyQt6, Cairo<br><b>Системы</b> X11, D-Bus, LevelDB, git<br><b>ИИ</b> OpenAI, Anthropic, Gemini, DeepSeek, OpenCode, llama-cpp</p>
   <img src="assets/spacer.png" width="100%" height="1" alt="">
 </td>
 </tr>

@@ -1,0 +1,19 @@
+<svg width="600" height="60" viewBox="0 0 600 60" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="hello, I'm xronni">
+  <style>
+    @keyframes slide-in {
+      from { opacity: 0; transform: translateX(-380px); }
+      to   { opacity: 1; transform: translateX(0); }
+    }
+    .slide {
+      animation: slide-in 1.3s cubic-bezier(0.16, 1, 0.3, 1) both;
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .slide { animation: none; }
+    }
+  </style>
+  <g class="slide">
+    <text x="300" y="39" text-anchor="middle"
+          font-family="'Fira Code', 'JetBrains Mono', 'SFMono-Regular', Consolas, monospace"
+          font-size="28" font-weight="600" fill="#0EA5E9">hello, I&#39;m xronni</text>
+  </g>
+</svg>
