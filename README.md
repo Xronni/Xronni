@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/badge/GTK4-Libadwaita-3584E4?style=flat-square&logo=gnome&logoColor=white" alt="GTK4 / Libadwaita">
   <img src="https://img.shields.io/badge/Qt-6-41CD52?style=flat-square&logo=qt&logoColor=white" alt="Qt 6">
   <img src="https://img.shields.io/badge/Linux%20%7C%20Windows-0078D4?style=flat-square" alt="Linux and Windows">
-  <img src="https://img.shields.io/badge/AI-friendly-7C3AED?style=flat-square" alt="AI-friendly">
+  <img src="https://img.shields.io/badge/AI%20%F0%9F%92%99-friendly-0EA5E9?style=flat-square" alt="AI-friendly">
 </p>
 
 <p align="center">
