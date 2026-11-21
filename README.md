@@ -6,8 +6,7 @@
   <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python 3.10+">
   <img src="https://img.shields.io/badge/GTK4-Libadwaita-3584E4?style=flat-square&logo=gnome&logoColor=white" alt="GTK4 / Libadwaita">
   <img src="https://img.shields.io/badge/Qt-6-41CD52?style=flat-square&logo=qt&logoColor=white" alt="Qt 6">
-  <img src="https://img.shields.io/badge/Linux-X11%20%7C%20D--Bus-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux: X11 and D-Bus">
-  <img src="https://img.shields.io/badge/Windows-10%20%7C%2011-0078D4?style=flat-square&logo=windows11&logoColor=white" alt="Windows 10/11">
+  <img src="https://img.shields.io/badge/Linux%20%7C%20Windows-0078D4?style=flat-square" alt="Linux and Windows">
   <img src="https://img.shields.io/badge/AI-cloud%20%7C%20local%20GGUF-7C3AED?style=flat-square" alt="AI: cloud and local GGUF">
 </p>
 
