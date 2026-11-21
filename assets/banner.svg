@@ -1,0 +1,87 @@
+<svg width="1200" height="340" viewBox="0 0 1200 340" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Xronni — Python, native desktop, systems, AI">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0C1122"/>
+      <stop offset="1" stop-color="#080B14"/>
+    </linearGradient>
+    <radialGradient id="glowPurple" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(120 20) rotate(38) scale(460 360)">
+      <stop stop-color="#7C5CFF" stop-opacity="0.34"/>
+      <stop offset="1" stop-color="#7C5CFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowCyan" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1080 330) rotate(-140) scale(420 340)">
+      <stop stop-color="#22D3EE" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="nameFill" x1="72" y1="150" x2="500" y2="215" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FAFF"/>
+      <stop offset="0.42" stop-color="#C4B5FD"/>
+      <stop offset="1" stop-color="#67E8F9"/>
+    </linearGradient>
+    <linearGradient id="mainLine" x1="830" y1="60" x2="830" y2="280" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE" stop-opacity="0.15"/>
+      <stop offset="0.45" stop-color="#22D3EE" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0.15"/>
+    </linearGradient>
+    <linearGradient id="branchLine" x1="830" y1="140" x2="960" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A78BFA" stop-opacity="0.2"/>
+      <stop offset="0.5" stop-color="#A78BFA" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#F472B6" stop-opacity="0.25"/>
+    </linearGradient>
+    <linearGradient id="hairline" x1="24" y1="0" x2="1176" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7C5CFF" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#A78BFA" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#9AA4BA" fill-opacity="0.10"/>
+    </pattern>
+    <filter id="blur" x="-120%" y="-120%" width="340%" height="340%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+    <clipPath id="card">
+      <rect width="1200" height="340" rx="26"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="340" fill="url(#bg)"/>
+    <rect width="1200" height="340" fill="url(#dots)"/>
+    <rect width="1200" height="340" fill="url(#glowPurple)"/>
+    <rect width="1200" height="340" fill="url(#glowCyan)"/>
+
+    <!-- commit graph -->
+    <g stroke-linecap="round" stroke-linejoin="round">
+      <path d="M830 58V282" stroke="url(#mainLine)" stroke-width="3"/>
+      <path d="M830 136C880 136 900 168 958 168V228C900 228 880 260 830 260" stroke="url(#branchLine)" stroke-width="3" fill="none"/>
+      <path d="M830 84C900 84 930 104 1034 104V176C930 176 900 204 830 204" stroke="#F472B6" stroke-opacity="0.34" stroke-width="2" fill="none"/>
+
+      <g fill="#080B14">
+        <circle cx="830" cy="84" r="7" stroke="#22D3EE" stroke-width="3"/>
+        <circle cx="830" cy="136" r="7" stroke="#22D3EE" stroke-width="3"/>
+        <circle cx="830" cy="204" r="7" stroke="#22D3EE" stroke-width="3"/>
+        <circle cx="830" cy="260" r="7" stroke="#22D3EE" stroke-width="3"/>
+        <circle cx="958" cy="168" r="7" stroke="#A78BFA" stroke-width="3"/>
+        <circle cx="958" cy="228" r="7" stroke="#F472B6" stroke-width="3"/>
+        <circle cx="1034" cy="104" r="6" stroke="#F472B6" stroke-opacity="0.7" stroke-width="2.5"/>
+        <circle cx="1034" cy="176" r="6" stroke="#F472B6" stroke-opacity="0.7" stroke-width="2.5"/>
+      </g>
+
+      <g fill="#22D3EE" filter="url(#blur)" opacity="0.65">
+        <circle cx="830" cy="136" r="12"/>
+        <circle cx="830" cy="204" r="12"/>
+      </g>
+      <g fill="#A78BFA" filter="url(#blur)" opacity="0.6">
+        <circle cx="958" cy="168" r="12"/>
+      </g>
+    </g>
+
+    <rect x="24" width="1152" height="1" fill="url(#hairline)"/>
+  </g>
+
+  <rect x="0.75" y="0.75" width="1198.5" height="338.5" rx="25.5" stroke="#242C42" stroke-width="1.5" stroke-opacity="0.9"/>
+
+  <text x="72" y="104" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" letter-spacing="3.6" fill="#8B95AB">PYTHON · NATIVE DESKTOP · SYSTEMS · AI</text>
+  <text x="69" y="212" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="104" font-weight="800" letter-spacing="-3.5" fill="url(#nameFill)">XRONNI</text>
+  <text x="72" y="258" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="23" font-weight="400" fill="#AEB8CC">I build the desktop tools I can&#39;t find.</text>
+  <text x="72" y="300" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" letter-spacing="3.2" fill="#69748C">SINCE 2021 · LINUX · WINDOWS</text>
+</svg>
